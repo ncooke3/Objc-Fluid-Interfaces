@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuViewController.h
 //  Objc Fluid Interfaces
 //
 //  Created by Nicholas Cooke on 3/6/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MenuViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
