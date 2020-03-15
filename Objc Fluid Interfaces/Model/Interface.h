@@ -10,6 +10,14 @@
 #import <UIKit/UIKit.h>
 
 #import "InterfaceViewController.h"
+#import "CalculatorButtonInterfaceViewController.h"
+#import "SpringInterfaceViewController.h"
+#import "FlashlightButtonInterfaceViewController.h"
+#import "RubberbandingInterfaceViewController.h"
+#import "AccelerationInterfaceViewController.h"
+#import "MomentumInterfaceViewController.h"
+#import "PipInterfaceViewController.h"
+#import "RotationInterfaceViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,7 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSString *name;
 @property (nonatomic) UIImage *icon;
 @property (nonatomic) UIColor *color;
-@property (nonatomic) InterfaceViewController *type;
+@property (nonatomic) InterfaceViewController* type;
+
++ (NSArray<Interface *> *)all;
 
 @end
 

@@ -11,8 +11,6 @@
 
 @interface MenuViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
-# pragma mark Properties
-
 @property (nonatomic) UICollectionView *collectionView;
 
 @end
@@ -25,7 +23,16 @@
 
 static UIColor *_darkColor;
 
-+ (UIColor *)darkColor { return [[UIColor alloc] initWithWhite:0.05 alpha:1.0]; }
++ (UIColor *)darkColor {
+    if (_darkColor == nil) {
+        _darkColor = [UIColor colorWithWhite:0.05 alpha:1.0];
+    }
+    return _darkColor;
+}
+
+static NSArray<Interface *> *_interfaces;
+
++ (NSArray<Interface *> *)interfaces { return [Interface all]; }
 
 
 #pragma mark - Init
@@ -34,8 +41,8 @@ static UIColor *_darkColor;
     [super viewDidLoad];
     
     [self.view setBackgroundColor: MenuViewController.darkColor];
-
-    self.navigationController.navigationBar.topItem.title = @"Fluid Interfaces";
+    
+    self.navigationController.navigationBar.topItem.title = @"Objc Fluid Interfaces";
     self.navigationController.navigationBar.prefersLargeTitles = YES;
     
     [self configureCollectionView];
@@ -52,15 +59,16 @@ static UIColor *_darkColor;
 }
 
 #pragma mark - Handlers
+
 - (void)configureCollectionView {
     _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:UICollectionViewFlowLayout.new];
-    _collectionView.delegate = self;
-    _collectionView.dataSource = self;
+    [_collectionView setDelegate:self];
+    [_collectionView setDataSource:self];
     [_collectionView setBackgroundColor:UIColor.clearColor];
     [_collectionView setBounces:YES];
     [_collectionView setAlwaysBounceVertical:YES];
-    [_collectionView registerClass:UICollectionViewCell.class forCellWithReuseIdentifier:@"cell"];
-    _collectionView.translatesAutoresizingMaskIntoConstraints = NO;
+    [_collectionView registerClass:InterfaceCell.class forCellWithReuseIdentifier:InterfaceCell.reuseIdentifier];
+    [_collectionView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.view addSubview:_collectionView];
 //    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:_collectionView
 //                                                                  attribute:NSLayoutAttributeTop
@@ -98,40 +106,46 @@ static UIColor *_darkColor;
                                  attribute:NSLayoutAttributeBottom
                                 multiplier:1.0 constant:0.0].active = YES;
     
-
-    
 }
+
 
 #pragma mark - UICollectionViewDelegate
+
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *selectedCell = [collectionView cellForItemAtIndexPath:indexPath];
-    if (!selectedCell) {
-        return;
-    }
-    
     [selectedCell setHighlighted:YES];
-    // choose interface from array
-    // create interface view controller
-    // set title of vc
-    // push vc onto  navigationController
-    // change navbar tintcolor to interface color
+    
+    Interface *interface = MenuViewController.interfaces[indexPath.row];
+    InterfaceViewController *viewController = [[[interface.type class] alloc] init];
+    [viewController setTitle:interface.name];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    viewController.navigationController.navigationBar.tintColor = interface.color;
     
 }
 
+
 #pragma mark - UICollectionViewDataSource
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 8;
+    return MenuViewController.interfaces.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    InterfaceCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:InterfaceCell.reuseIdentifier forIndexPath:indexPath];
     
-    [cell setBackgroundColor:[UIColor.whiteColor colorWithAlphaComponent:0.1]];
+    Interface *interface = MenuViewController.interfaces[indexPath.row];
+    
+    cell.title = interface.name;
+    cell.image = interface.icon;
+    
     return cell;
 
 }
 
+
 #pragma mark - UICollectionViewDelegateFlowLayout
+
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(collectionView.bounds.size.width, 60);
 }

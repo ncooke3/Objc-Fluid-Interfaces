@@ -1,8 +1,8 @@
 //
-//  MenuViewController.h
+//  CalculatorButton.h
 //  Objc Fluid Interfaces
 //
-//  Created by Nicholas Cooke on 3/6/20.
+//  Created by Nicholas Cooke on 3/13/20.
 //  Copyright © 2020 Nicholas Cooke. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MenuViewController : UIViewController
+@interface CalculatorButton : UIControl
+
+@property (nonatomic) NSInteger value;
 
 @end
 
