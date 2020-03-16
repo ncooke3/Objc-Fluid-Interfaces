@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB64241E66B300AA21AF /* InterfaceCell.m */; };
 		EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */; };
+		EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB75241FDE6C00AA21AF /* GradientView.m */; };
+		EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB78241FFA2400AA21AF /* SliderView.m */; };
+		EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */; };
 		EA922C7424133A57001906B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7324133A57001906B4 /* AppDelegate.m */; };
 		EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7624133A57001906B4 /* SceneDelegate.m */; };
 		EA922C7F24133A59001906B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA922C7E24133A59001906B4 /* Assets.xcassets */; };
@@ -43,6 +46,12 @@
 		EA90FB64241E66B300AA21AF /* InterfaceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceCell.m; sourceTree = "<group>"; };
 		EA90FB71241E886F00AA21AF /* SpringInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringInterfaceViewController.h; sourceTree = "<group>"; };
 		EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringInterfaceViewController.m; sourceTree = "<group>"; };
+		EA90FB74241FDE6C00AA21AF /* GradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GradientView.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/GradientView.h"; sourceTree = SOURCE_ROOT; };
+		EA90FB75241FDE6C00AA21AF /* GradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GradientView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/GradientView.m"; sourceTree = SOURCE_ROOT; };
+		EA90FB77241FFA2400AA21AF /* SliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SliderView.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/SliderView.h"; sourceTree = SOURCE_ROOT; };
+		EA90FB78241FFA2400AA21AF /* SliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SliderView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/SliderView.m"; sourceTree = SOURCE_ROOT; };
+		EA90FB7A24201BD900AA21AF /* UISpringTimingParameters+Convenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpringTimingParameters+Convenience.h"; sourceTree = "<group>"; };
+		EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISpringTimingParameters+Convenience.m"; sourceTree = "<group>"; };
 		EA922C6F24133A57001906B4 /* Objc Fluid Interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc Fluid Interfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA922C7224133A57001906B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA922C7324133A57001906B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -253,6 +262,10 @@
 		EA922CA82413E2C0001906B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA90FB77241FFA2400AA21AF /* SliderView.h */,
+				EA90FB78241FFA2400AA21AF /* SliderView.m */,
+				EA90FB74241FDE6C00AA21AF /* GradientView.h */,
+				EA90FB75241FDE6C00AA21AF /* GradientView.m */,
 				EAC5A101241C2B6B00D98AFC /* CalculatorButton.h */,
 				EAC5A102241C2B6B00D98AFC /* CalculatorButton.m */,
 				EA90FB63241E66B300AA21AF /* InterfaceCell.h */,
@@ -264,6 +277,8 @@
 		EA922CAA2413E2CB001906B4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EA90FB7A24201BD900AA21AF /* UISpringTimingParameters+Convenience.h */,
+				EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -379,9 +394,11 @@
 			files = (
 				EA922CA42413E289001906B4 /* InterfaceViewController.m in Sources */,
 				EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */,
+				EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */,
 				EA922CA12413E179001906B4 /* Interface.m in Sources */,
 				EAC5A100241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m in Sources */,
 				EAC5A11D241C3CBE00D98AFC /* RotationInterfaceViewController.m in Sources */,
+				EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */,
 				EAC5A103241C2B6B00D98AFC /* CalculatorButton.m in Sources */,
 				EAC5A114241C3C8900D98AFC /* AccelerationInterfaceViewController.m in Sources */,
 				EA922C7424133A57001906B4 /* AppDelegate.m in Sources */,
@@ -389,6 +406,7 @@
 				EAC5A10E241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m in Sources */,
 				EA922C8524133A59001906B4 /* main.m in Sources */,
 				EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */,
+				EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */,
 				EAC5A111241C3C7100D98AFC /* RubberbandingInterfaceViewController.m in Sources */,
 				EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */,
 				EAC5A117241C3C9900D98AFC /* MomentumInterfaceViewController.m in Sources */,
