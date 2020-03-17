@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "InterfaceViewController.h"
+#import "FlashlightButton.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

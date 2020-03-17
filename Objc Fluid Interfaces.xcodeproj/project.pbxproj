@@ -12,6 +12,7 @@
 		EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB75241FDE6C00AA21AF /* GradientView.m */; };
 		EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB78241FFA2400AA21AF /* SliderView.m */; };
 		EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */; };
+		EA90FB8424206CF400AA21AF /* FlashlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB8324206CF400AA21AF /* FlashlightButton.m */; };
 		EA922C7424133A57001906B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7324133A57001906B4 /* AppDelegate.m */; };
 		EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7624133A57001906B4 /* SceneDelegate.m */; };
 		EA922C7F24133A59001906B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA922C7E24133A59001906B4 /* Assets.xcassets */; };
@@ -52,6 +53,8 @@
 		EA90FB78241FFA2400AA21AF /* SliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SliderView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/SliderView.m"; sourceTree = SOURCE_ROOT; };
 		EA90FB7A24201BD900AA21AF /* UISpringTimingParameters+Convenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpringTimingParameters+Convenience.h"; sourceTree = "<group>"; };
 		EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISpringTimingParameters+Convenience.m"; sourceTree = "<group>"; };
+		EA90FB8224206CF400AA21AF /* FlashlightButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashlightButton.h; sourceTree = "<group>"; };
+		EA90FB8324206CF400AA21AF /* FlashlightButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightButton.m; sourceTree = "<group>"; };
 		EA922C6F24133A57001906B4 /* Objc Fluid Interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc Fluid Interfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA922C7224133A57001906B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA922C7324133A57001906B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -270,6 +273,8 @@
 				EAC5A102241C2B6B00D98AFC /* CalculatorButton.m */,
 				EA90FB63241E66B300AA21AF /* InterfaceCell.h */,
 				EA90FB64241E66B300AA21AF /* InterfaceCell.m */,
+				EA90FB8224206CF400AA21AF /* FlashlightButton.h */,
+				EA90FB8324206CF400AA21AF /* FlashlightButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				EA922C8524133A59001906B4 /* main.m in Sources */,
 				EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */,
 				EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */,
+				EA90FB8424206CF400AA21AF /* FlashlightButton.m in Sources */,
 				EAC5A111241C3C7100D98AFC /* RubberbandingInterfaceViewController.m in Sources */,
 				EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */,
 				EAC5A117241C3C9900D98AFC /* MomentumInterfaceViewController.m in Sources */,

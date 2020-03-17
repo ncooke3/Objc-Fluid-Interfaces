@@ -10,23 +10,23 @@
 
 @interface FlashlightButtonInterfaceViewController ()
 
+@property (nonatomic) FlashlightButton *flashlightButton;
+
 @end
+
 
 @implementation FlashlightButtonInterfaceViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _flashlightButton = [[FlashlightButton alloc] init];
+    _flashlightButton.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:_flashlightButton];
+    [[_flashlightButton.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor] setActive:YES];
+    [[_flashlightButton.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor] setActive:YES];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
