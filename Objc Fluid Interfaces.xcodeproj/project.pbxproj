@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB64241E66B300AA21AF /* InterfaceCell.m */; };
+		EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */; };
+		EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB75241FDE6C00AA21AF /* GradientView.m */; };
+		EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB78241FFA2400AA21AF /* SliderView.m */; };
+		EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */; };
+		EA90FB8424206CF400AA21AF /* FlashlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB8324206CF400AA21AF /* FlashlightButton.m */; };
 		EA922C7424133A57001906B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7324133A57001906B4 /* AppDelegate.m */; };
 		EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7624133A57001906B4 /* SceneDelegate.m */; };
-		EA922C7A24133A57001906B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C7924133A57001906B4 /* ViewController.m */; };
-		EA922C7D24133A57001906B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA922C7B24133A57001906B4 /* Main.storyboard */; };
 		EA922C7F24133A59001906B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA922C7E24133A59001906B4 /* Assets.xcassets */; };
 		EA922C8224133A59001906B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA922C8024133A59001906B4 /* LaunchScreen.storyboard */; };
 		EA922C8524133A59001906B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C8424133A59001906B4 /* main.m */; };
 		EA922C8F24133A59001906B4 /* Objc_Fluid_InterfacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C8E24133A59001906B4 /* Objc_Fluid_InterfacesTests.m */; };
+		EA922C9E2413406D001906B4 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922C9D2413406D001906B4 /* MenuViewController.m */; };
+		EA922CA12413E179001906B4 /* Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922CA02413E179001906B4 /* Interface.m */; };
+		EA922CA42413E289001906B4 /* InterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA922CA32413E289001906B4 /* InterfaceViewController.m */; };
+		EAC5A100241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A0FF241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m */; };
+		EAC5A103241C2B6B00D98AFC /* CalculatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A102241C2B6B00D98AFC /* CalculatorButton.m */; };
+		EAC5A10E241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A10D241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m */; };
+		EAC5A111241C3C7100D98AFC /* RubberbandingInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A110241C3C7100D98AFC /* RubberbandingInterfaceViewController.m */; };
+		EAC5A114241C3C8900D98AFC /* AccelerationInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A113241C3C8900D98AFC /* AccelerationInterfaceViewController.m */; };
+		EAC5A117241C3C9900D98AFC /* MomentumInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A116241C3C9900D98AFC /* MomentumInterfaceViewController.m */; };
+		EAC5A11A241C3CAC00D98AFC /* PipInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A119241C3CAC00D98AFC /* PipInterfaceViewController.m */; };
+		EAC5A11D241C3CBE00D98AFC /* RotationInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A11C241C3CBE00D98AFC /* RotationInterfaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA90FB63241E66B300AA21AF /* InterfaceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceCell.h; sourceTree = "<group>"; };
+		EA90FB64241E66B300AA21AF /* InterfaceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceCell.m; sourceTree = "<group>"; };
+		EA90FB71241E886F00AA21AF /* SpringInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringInterfaceViewController.h; sourceTree = "<group>"; };
+		EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringInterfaceViewController.m; sourceTree = "<group>"; };
+		EA90FB74241FDE6C00AA21AF /* GradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GradientView.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/GradientView.h"; sourceTree = SOURCE_ROOT; };
+		EA90FB75241FDE6C00AA21AF /* GradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GradientView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/GradientView.m"; sourceTree = SOURCE_ROOT; };
+		EA90FB77241FFA2400AA21AF /* SliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SliderView.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/SliderView.h"; sourceTree = SOURCE_ROOT; };
+		EA90FB78241FFA2400AA21AF /* SliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SliderView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Spring/SliderView.m"; sourceTree = SOURCE_ROOT; };
+		EA90FB7A24201BD900AA21AF /* UISpringTimingParameters+Convenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpringTimingParameters+Convenience.h"; sourceTree = "<group>"; };
+		EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISpringTimingParameters+Convenience.m"; sourceTree = "<group>"; };
+		EA90FB8224206CF400AA21AF /* FlashlightButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashlightButton.h; sourceTree = "<group>"; };
+		EA90FB8324206CF400AA21AF /* FlashlightButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightButton.m; sourceTree = "<group>"; };
 		EA922C6F24133A57001906B4 /* Objc Fluid Interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc Fluid Interfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA922C7224133A57001906B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA922C7324133A57001906B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA922C7524133A57001906B4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		EA922C7624133A57001906B4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EA922C7824133A57001906B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA922C7924133A57001906B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA922C7C24133A57001906B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA922C7E24133A59001906B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA922C8124133A59001906B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA922C8324133A59001906B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +67,28 @@
 		EA922C8A24133A59001906B4 /* Objc Fluid InterfacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objc Fluid InterfacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA922C8E24133A59001906B4 /* Objc_Fluid_InterfacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_Fluid_InterfacesTests.m; sourceTree = "<group>"; };
 		EA922C9024133A59001906B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA922C9C2413406D001906B4 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		EA922C9D2413406D001906B4 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		EA922C9F2413E179001906B4 /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		EA922CA02413E179001906B4 /* Interface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interface.m; sourceTree = "<group>"; };
+		EA922CA22413E289001906B4 /* InterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceViewController.h; sourceTree = "<group>"; };
+		EA922CA32413E289001906B4 /* InterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A0FE241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorButtonInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A0FF241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorButtonInterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A101241C2B6B00D98AFC /* CalculatorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorButton.h; sourceTree = "<group>"; };
+		EAC5A102241C2B6B00D98AFC /* CalculatorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorButton.m; sourceTree = "<group>"; };
+		EAC5A10C241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlashlightButtonInterfaceViewController.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Flashlight/FlashlightButtonInterfaceViewController.h"; sourceTree = SOURCE_ROOT; };
+		EAC5A10D241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlashlightButtonInterfaceViewController.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/Flashlight/FlashlightButtonInterfaceViewController.m"; sourceTree = SOURCE_ROOT; };
+		EAC5A10F241C3C7100D98AFC /* RubberbandingInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubberbandingInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A110241C3C7100D98AFC /* RubberbandingInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubberbandingInterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A112241C3C8900D98AFC /* AccelerationInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelerationInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A113241C3C8900D98AFC /* AccelerationInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerationInterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A115241C3C9900D98AFC /* MomentumInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentumInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A116241C3C9900D98AFC /* MomentumInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentumInterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A118241C3CAC00D98AFC /* PipInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PipInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A119241C3CAC00D98AFC /* PipInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PipInterfaceViewController.m; sourceTree = "<group>"; };
+		EAC5A11B241C3CBE00D98AFC /* RotationInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationInterfaceViewController.h; sourceTree = "<group>"; };
+		EAC5A11C241C3CBE00D98AFC /* RotationInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationInterfaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +109,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA90FB68241E875F00AA21AF /* Interface Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA922CA22413E289001906B4 /* InterfaceViewController.h */,
+				EA922CA32413E289001906B4 /* InterfaceViewController.m */,
+				EA90FB69241E87AB00AA21AF /* Flashlight */,
+				EA90FB6A241E87C000AA21AF /* Rubberbanding */,
+				EA90FB6B241E87DB00AA21AF /* Acceleration */,
+				EA90FB6C241E87E400AA21AF /* Momentum */,
+				EA90FB6D241E87EF00AA21AF /* PiP */,
+				EA90FB6E241E87F900AA21AF /* Rotation */,
+				EA90FB6F241E880100AA21AF /* Spring */,
+				EA90FB70241E880E00AA21AF /* Calculator */,
+			);
+			path = "Interface Controllers";
+			sourceTree = "<group>";
+		};
+		EA90FB69241E87AB00AA21AF /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A10C241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.h */,
+				EAC5A10D241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		EA90FB6A241E87C000AA21AF /* Rubberbanding */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A10F241C3C7100D98AFC /* RubberbandingInterfaceViewController.h */,
+				EAC5A110241C3C7100D98AFC /* RubberbandingInterfaceViewController.m */,
+			);
+			path = Rubberbanding;
+			sourceTree = "<group>";
+		};
+		EA90FB6B241E87DB00AA21AF /* Acceleration */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A112241C3C8900D98AFC /* AccelerationInterfaceViewController.h */,
+				EAC5A113241C3C8900D98AFC /* AccelerationInterfaceViewController.m */,
+			);
+			path = Acceleration;
+			sourceTree = "<group>";
+		};
+		EA90FB6C241E87E400AA21AF /* Momentum */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A115241C3C9900D98AFC /* MomentumInterfaceViewController.h */,
+				EAC5A116241C3C9900D98AFC /* MomentumInterfaceViewController.m */,
+			);
+			path = Momentum;
+			sourceTree = "<group>";
+		};
+		EA90FB6D241E87EF00AA21AF /* PiP */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A118241C3CAC00D98AFC /* PipInterfaceViewController.h */,
+				EAC5A119241C3CAC00D98AFC /* PipInterfaceViewController.m */,
+			);
+			path = PiP;
+			sourceTree = "<group>";
+		};
+		EA90FB6E241E87F900AA21AF /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A11B241C3CBE00D98AFC /* RotationInterfaceViewController.h */,
+				EAC5A11C241C3CBE00D98AFC /* RotationInterfaceViewController.m */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		EA90FB6F241E880100AA21AF /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				EA90FB71241E886F00AA21AF /* SpringInterfaceViewController.h */,
+				EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		EA90FB70241E880E00AA21AF /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A0FE241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.h */,
+				EAC5A0FF241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
 		EA922C6624133A57001906B4 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +219,11 @@
 		EA922C7124133A57001906B4 /* Objc Fluid Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				EA922C7224133A57001906B4 /* AppDelegate.h */,
-				EA922C7324133A57001906B4 /* AppDelegate.m */,
-				EA922C7524133A57001906B4 /* SceneDelegate.h */,
-				EA922C7624133A57001906B4 /* SceneDelegate.m */,
-				EA922C7824133A57001906B4 /* ViewController.h */,
-				EA922C7924133A57001906B4 /* ViewController.m */,
-				EA922C7B24133A57001906B4 /* Main.storyboard */,
+				EA922CA52413E2A7001906B4 /* App */,
+				EA922CAA2413E2CB001906B4 /* Utils */,
+				EA922CAC2413E31B001906B4 /* Model */,
+				EA922CA82413E2C0001906B4 /* View */,
+				EA922CA62413E2AD001906B4 /* Controllers */,
 				EA922C7E24133A59001906B4 /* Assets.xcassets */,
 				EA922C8024133A59001906B4 /* LaunchScreen.storyboard */,
 				EA922C8324133A59001906B4 /* Info.plist */,
@@ -106,6 +239,62 @@
 				EA922C9024133A59001906B4 /* Info.plist */,
 			);
 			path = "Objc Fluid InterfacesTests";
+			sourceTree = "<group>";
+		};
+		EA922CA52413E2A7001906B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA922C7224133A57001906B4 /* AppDelegate.h */,
+				EA922C7324133A57001906B4 /* AppDelegate.m */,
+				EA922C7524133A57001906B4 /* SceneDelegate.h */,
+				EA922C7624133A57001906B4 /* SceneDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EA922CA62413E2AD001906B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA90FB68241E875F00AA21AF /* Interface Controllers */,
+				EA922C9C2413406D001906B4 /* MenuViewController.h */,
+				EA922C9D2413406D001906B4 /* MenuViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA922CA82413E2C0001906B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA90FB77241FFA2400AA21AF /* SliderView.h */,
+				EA90FB78241FFA2400AA21AF /* SliderView.m */,
+				EA90FB74241FDE6C00AA21AF /* GradientView.h */,
+				EA90FB75241FDE6C00AA21AF /* GradientView.m */,
+				EAC5A101241C2B6B00D98AFC /* CalculatorButton.h */,
+				EAC5A102241C2B6B00D98AFC /* CalculatorButton.m */,
+				EA90FB63241E66B300AA21AF /* InterfaceCell.h */,
+				EA90FB64241E66B300AA21AF /* InterfaceCell.m */,
+				EA90FB8224206CF400AA21AF /* FlashlightButton.h */,
+				EA90FB8324206CF400AA21AF /* FlashlightButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA922CAA2413E2CB001906B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA90FB7A24201BD900AA21AF /* UISpringTimingParameters+Convenience.h */,
+				EA90FB80242035FB00AA21AF /* UISpringTimingParameters+Convenience.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA922CAC2413E31B001906B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA922C9F2413E179001906B4 /* Interface.h */,
+				EA922CA02413E179001906B4 /* Interface.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +346,7 @@
 				TargetAttributes = {
 					EA922C6E24133A57001906B4 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					EA922C8924133A59001906B4 = {
 						CreatedOnToolsVersion = 11.3;
@@ -165,7 +355,7 @@
 				};
 			};
 			buildConfigurationList = EA922C6A24133A57001906B4 /* Build configuration list for PBXProject "Objc Fluid Interfaces" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -190,7 +380,6 @@
 			files = (
 				EA922C8224133A59001906B4 /* LaunchScreen.storyboard in Resources */,
 				EA922C7F24133A59001906B4 /* Assets.xcassets in Resources */,
-				EA922C7D24133A57001906B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,10 +397,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA922C7A24133A57001906B4 /* ViewController.m in Sources */,
+				EA922CA42413E289001906B4 /* InterfaceViewController.m in Sources */,
+				EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */,
+				EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */,
+				EA922CA12413E179001906B4 /* Interface.m in Sources */,
+				EAC5A100241C2AFD00D98AFC /* CalculatorButtonInterfaceViewController.m in Sources */,
+				EAC5A11D241C3CBE00D98AFC /* RotationInterfaceViewController.m in Sources */,
+				EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */,
+				EAC5A103241C2B6B00D98AFC /* CalculatorButton.m in Sources */,
+				EAC5A114241C3C8900D98AFC /* AccelerationInterfaceViewController.m in Sources */,
 				EA922C7424133A57001906B4 /* AppDelegate.m in Sources */,
+				EAC5A11A241C3CAC00D98AFC /* PipInterfaceViewController.m in Sources */,
+				EAC5A10E241C3C4A00D98AFC /* FlashlightButtonInterfaceViewController.m in Sources */,
 				EA922C8524133A59001906B4 /* main.m in Sources */,
 				EA922C7724133A57001906B4 /* SceneDelegate.m in Sources */,
+				EA90FB79241FFA2400AA21AF /* SliderView.m in Sources */,
+				EA90FB8424206CF400AA21AF /* FlashlightButton.m in Sources */,
+				EAC5A111241C3C7100D98AFC /* RubberbandingInterfaceViewController.m in Sources */,
+				EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */,
+				EAC5A117241C3C9900D98AFC /* MomentumInterfaceViewController.m in Sources */,
+				EA922C9E2413406D001906B4 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,14 +439,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA922C7B24133A57001906B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA922C7C24133A57001906B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA922C8024133A59001906B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2A6VGGX23;
 				INFOPLIST_FILE = "Objc Fluid Interfaces/Info.plist";
@@ -376,7 +574,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Objc-Fluid-Interfaces";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -384,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2A6VGGX23;
 				INFOPLIST_FILE = "Objc Fluid Interfaces/Info.plist";
@@ -393,7 +594,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Objc-Fluid-Interfaces";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
