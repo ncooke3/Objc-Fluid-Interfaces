@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "InterfaceViewController.h"
+#import "GradientView.h"
+#import "UISpringTimingParameters+Convenience.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
