@@ -135,7 +135,7 @@ typedef NS_ENUM(NSUInteger, ForceState) {
 }
 
 
-# pragma Utility
+# pragma mark - Utility
 
 - (void)touchMoved:(UITouch *)touch {
     if (!touch) { return; }

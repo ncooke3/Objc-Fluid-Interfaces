@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA21A1092421C6A000F956A0 /* PipPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21A1082421C6A000F956A0 /* PipPositionView.m */; };
+		EA71C937242382C2001FF302 /* InstantPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA71C936242382C2001FF302 /* InstantPanGestureRecognizer.m */; };
 		EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB64241E66B300AA21AF /* InterfaceCell.m */; };
 		EA90FB73241E886F00AA21AF /* SpringInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB72241E886F00AA21AF /* SpringInterfaceViewController.m */; };
 		EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90FB75241FDE6C00AA21AF /* GradientView.m */; };
@@ -43,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA21A1072421C6A000F956A0 /* PipPositionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PipPositionView.h; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/PiP/PipPositionView.h"; sourceTree = SOURCE_ROOT; };
+		EA21A1082421C6A000F956A0 /* PipPositionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PipPositionView.m; path = "Objc Fluid Interfaces/Controllers/Interface Controllers/PiP/PipPositionView.m"; sourceTree = SOURCE_ROOT; };
+		EA71C935242382C2001FF302 /* InstantPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InstantPanGestureRecognizer.h; path = "Interface Controllers/Momentum/InstantPanGestureRecognizer.h"; sourceTree = "<group>"; };
+		EA71C936242382C2001FF302 /* InstantPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InstantPanGestureRecognizer.m; path = "Interface Controllers/Momentum/InstantPanGestureRecognizer.m"; sourceTree = "<group>"; };
 		EA90FB63241E66B300AA21AF /* InterfaceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceCell.h; sourceTree = "<group>"; };
 		EA90FB64241E66B300AA21AF /* InterfaceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceCell.m; sourceTree = "<group>"; };
 		EA90FB71241E886F00AA21AF /* SpringInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringInterfaceViewController.h; sourceTree = "<group>"; };
@@ -255,6 +261,8 @@
 		EA922CA62413E2AD001906B4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA71C935242382C2001FF302 /* InstantPanGestureRecognizer.h */,
+				EA71C936242382C2001FF302 /* InstantPanGestureRecognizer.m */,
 				EA90FB68241E875F00AA21AF /* Interface Controllers */,
 				EA922C9C2413406D001906B4 /* MenuViewController.h */,
 				EA922C9D2413406D001906B4 /* MenuViewController.m */,
@@ -265,6 +273,8 @@
 		EA922CA82413E2C0001906B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA21A1072421C6A000F956A0 /* PipPositionView.h */,
+				EA21A1082421C6A000F956A0 /* PipPositionView.m */,
 				EA90FB77241FFA2400AA21AF /* SliderView.h */,
 				EA90FB78241FFA2400AA21AF /* SliderView.m */,
 				EA90FB74241FDE6C00AA21AF /* GradientView.h */,
@@ -397,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA21A1092421C6A000F956A0 /* PipPositionView.m in Sources */,
 				EA922CA42413E289001906B4 /* InterfaceViewController.m in Sources */,
 				EA90FB65241E66B300AA21AF /* InterfaceCell.m in Sources */,
 				EA90FB76241FDE6C00AA21AF /* GradientView.m in Sources */,
@@ -405,6 +416,7 @@
 				EAC5A11D241C3CBE00D98AFC /* RotationInterfaceViewController.m in Sources */,
 				EA90FB81242035FB00AA21AF /* UISpringTimingParameters+Convenience.m in Sources */,
 				EAC5A103241C2B6B00D98AFC /* CalculatorButton.m in Sources */,
+				EA71C937242382C2001FF302 /* InstantPanGestureRecognizer.m in Sources */,
 				EAC5A114241C3C8900D98AFC /* AccelerationInterfaceViewController.m in Sources */,
 				EA922C7424133A57001906B4 /* AppDelegate.m in Sources */,
 				EAC5A11A241C3CAC00D98AFC /* PipInterfaceViewController.m in Sources */,
