@@ -59,15 +59,6 @@ static NSArray<Interface *> *_interfaces;
 }
 
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-#ifndef NDEBUG
-    [self collectionView:_collectionView didSelectItemAtIndexPath:[NSIndexPath indexPathForItem:5 inSection:1]];
-#endif
-    
-}
-
 #pragma mark - Handlers
 
 - (void)configureCollectionView {

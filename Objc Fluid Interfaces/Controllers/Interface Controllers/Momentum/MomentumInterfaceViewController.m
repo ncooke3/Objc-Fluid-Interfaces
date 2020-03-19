@@ -48,7 +48,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // printing out default property values
     
     [self.view addSubview:self.momentumView];
 
